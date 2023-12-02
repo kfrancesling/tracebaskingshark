@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Title </title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- This is the side bar with the options for colour and brush width -->
+<div class="sidebar">
+	<ul>
+        <!-- below is the label for our colour chooser -->
+        <li>
+			<label for="color">Color:</label>
+			<input type="color" id="color"/> 
+		</li>
+        <!-- below is the label for our stroke chooser -->
+		<li>
+			<label for="weight">Stroke:</label>
+			<input type="number" id="weight" min="2" max="200" value="3"/>
+		</li>
+		<li>
+			<button id="clear"><i class="fa fa-trash"></i></button>
+		</li>
+	</ul>
+</div>
+
+<footer>
+	<p>
+		press S to save
+	</p>
+</footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js'></script><script  src="./script.js"></script>
+</body>
+</html>

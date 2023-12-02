@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	 font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+	margin: 0;
+	overflow: hidden;
+}
+
+h4 {
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+}
+
+.sidebar {
+	background-color: darkcyan;
+	color: #fff;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100vh;
+	padding: 5px;
+	z-index: 1000;
+}
+
+.sidebar ul {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+.sidebar ul li {
+	padding: 5px 0;
+}
+
+.sidebar input, .sidebar button {
+	text-align: center;
+	width: 45px;
+}
+
+.sidebar li:last-of-type {
+	margin-top: auto;
+}
+
+.sidebar button {
+	background-color: darkblue;
+	border: black;
+	color: #fff;
+	font-size: 15px;
+}
+
+.sidebar label {
+	display: block;
+	font-size: 12px;
+	margin-bottom: 3px;
+}
+
+footer {
+    background-color: darkcyan;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer i {
+    color: red;
+}
+
+footer a {
+    color: #3c97bf;
+    text-decoration: none;
+}
+
+.fa fa-download {
+ font-family: "PT Sans", Calibri, Tahoma, sans-serif; 
+}
